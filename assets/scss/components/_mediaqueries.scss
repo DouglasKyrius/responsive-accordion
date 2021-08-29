@@ -1,0 +1,28 @@
+/*=============== MEDIA QUERIES ===============*/
+/* Para dispositivos médios */
+@media screen and (min-width: 576px) {
+  .accordion {
+    &__container {
+      width: 550px;
+      padding: 2.5rem;
+      justify-self: center;
+      border-radius: 0.75rem;
+    }
+    &__header {
+      padding: 1.5rem;
+    }
+    &__title {
+      padding-right: 3.5rem;
+    }
+    &__description {
+      padding: 0 4rem 1.25rem 3.5rem;
+    }
+  }
+}
+/* Para dispositivos largos */
+@media screen and (min-width: 968px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
